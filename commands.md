@@ -1,74 +1,96 @@
-Git Command Reference
-1. Repository Setup
-Create a new directory
-mkdir git_for_devops
+# Git Command Reference
 
-Navigate into the directory
-cd git_for_devops/
+## 1. Repository Setup
 
-Initialize a Git repository
-git init
+- **Create a new directory**  
+  `mkdir git_for_devops`
 
-2. File Management
-Create a new file
-touch hello_mitro.txt
+- **Navigate into the directory**  
+  `cd git_for_devops/`
 
-Create multiple files
-touch Abhi.txt Destiny.txt
+- **Initialize a Git repository**  
+  `git init`
 
-Remove a file
-rm Abhi.txt
+## 2. File Management
 
-3. File Status
-Check the current status of the repository
-git status
+- **Create a new file**  
+  `touch hello_mitro.txt`
 
-View all files (including hidden)
-ls -a
+- **Create multiple files**  
+  `touch Abhi.txt Destiny.txt`
 
-View detailed list of files
-ls -lrt
+- **Remove a file**  
+  `rm Abhi.txt`
 
-4. Staging and Unstaging
-Add a file to the staging area
-git add Abhi.txt
+## 3. File Status
 
-Add multiple files to the staging area
-git add abhi.txt Destiny.txt
+- **Check the current status of the repository**  
+  `git status`
 
-Remove a file from the staging area
-git rm --cached Abhi.txt
+- **View all files (including hidden)**  
+  `ls -a`
 
-Unstage a file (restore to untracked)
-git restore --staged abhi.txt
+- **View detailed list of files**  
+  `ls -lrt`
 
-5. Commit Changes
-Commit changes with a message
-git commit -m "added new changes to abhi"
+## 4. Staging and Unstaging
 
-Commit with multiple files
-git commit -m "adding abhi and Destiny changes"
+- **Add a file to the staging area**  
+  `git add Abhi.txt`
 
-6. Configuration
-Set global Git username
-git config --global user.name "Abhishekverma147"
+- **Add multiple files to the staging area**  
+  `git add abhi.txt Destiny.txt`
 
-Set global Git email
-git config --global user.email "av230900@gmail.com"
+- **Remove a file from the staging area**  
+  `git rm --cached Abhi.txt`
 
-7. View History
-Show commit history
-git log
-8. Editing Files
-Open a file in editor
-vi abhi.txt
+- **Unstage a file (restore to untracked)**  
+  `git restore --staged abhi.txt`
 
-View file contents
-cat abhi.txt
+## 5. Commit Changes
 
-9. Cleanup and Reset
-Clear the screen
-clear
+- **Commit changes with a message**  
+  `git commit -m "added new changes to abhi"`
 
-Restore a modified file
-git restore abhi.txt
+- **Commit with multiple files**  
+  `git commit -m "adding abhi and Destiny changes"`
+
+## 6. Configuration
+
+- **Set global Git username**  
+  `git config --global user.name "Abhishekverma147"`
+
+- **Set global Git email**  
+  `git config --global user.email "av230900@gmail.com"`
+
+## 7. View History
+
+- **Show commit history**  
+  `git log`
+
+## 8. Editing Files
+
+- **Open a file in editor**  
+  `vi abhi.txt`
+
+- **View file contents**  
+  `cat abhi.txt`
+
+## 9. Cleanup and Reset
+
+- **Clear the screen**  
+  `clear`
+
+- **Restore a modified file**  
+  `git restore abhi.txt`
+
+## 10. Miscellaneous
+
+- **Set no auto-logout in the current terminal session**  
+  `TMOUT=0`
+
+- **List files in long format**  
+  `ll`
+
+- **Navigate to directory**  
+  `cd git_for_devops/`
